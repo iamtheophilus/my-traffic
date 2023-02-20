@@ -1,0 +1,117 @@
+* {box-sizing: border-box;}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+#sticky-container {
+    position: fixed;
+}
+#bg-doubled-container {
+    display: flex;
+}
+#bg-image {
+    width: 50vw;
+    height: 70vh;
+}
+#bck-view-man-waving {
+    float: right;
+    width: 110px;
+    height: 110px;
+    clear: right;
+    position: relative;
+    top: -220px;
+    right: -60px;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    animation: man-waving 12s ease-in-out infinite;
+}
+@keyframes man-waving {
+    0%{
+        right: -70px;
+    }
+    100%{
+        right: 100vw;
+    }   
+}
+#frnt-view-man-waving {
+    width: 110px;
+    height: 110px;
+    position: relative;
+    top: -220px;
+    left: -60px;
+    animation: man-waving2 16s ease-in-out infinite;
+}
+@keyframes man-waving2 {
+    0%{
+        left: -70px;
+    }
+    100%{
+        left: 100vw;
+    }   
+}
+#aeroplane {
+    float: right;
+    position: relative;
+    top: -680px;
+    right: -100px;
+    clear: right;
+    animation: aeroplane 4s ease-in-out infinite;
+}
+@keyframes aeroplane {
+    0%{
+        right: -500px;
+    }
+    100%{
+        right: 100vw;
+    }
+}
+#jet {
+    width: 250px;
+    float: right;
+    position: relative;
+    top: -780px;
+    right: -100px;
+    clear: right;
+    animation: jet 8s ease-in-out infinite;
+}
+@keyframes jet {
+    0%{
+        right: -500px;
+    }
+    100%{
+        right: 100vw;
+    }
+}
+#bike-man {
+    width: 150px;
+    float: right;
+    position: relative;
+    top: -680px;
+    right: -100px;
+    clear: right;
+    animation: bike-man 5s ease-in-out infinite;
+}
+@keyframes bike-man {
+    0%{
+        right: -500px;
+    }
+    100%{
+        right: 100vw;
+    }
+}
+#sportcar {
+    width: 150px;
+    position: relative;
+    top: -132px;
+    left: -100px;
+    animation: sportcar 3s ease-in-out infinite;
+}
+@keyframes sportcar {
+    0%{
+        left: -500px;
+    }
+    100%{
+        left: 100vw;
+    }
+}
+
